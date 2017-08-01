@@ -2,20 +2,31 @@
 <html>
   <head>
     <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="build/css/stylesheet.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
     <title>Weather API</title>
   </head>
   <body>
-    <h1>Weather API</h1>
-    <form id="weather-form">
-      <label for="location">Enter a Location: </label>
-      <input id="location" name="location" type="text" required>
-      <button type="submit">Find Me Some Weathers</button>
-    </form>
-    <div class="display">
-      <h4> </h4>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Weather API</h1>
+        <h2>All The Weather</h2>
+        <br>
+        <div class="int-times">
+        </div>
+      </div>
+      <form id="weather-form">
+        <label for="location">Enter a Location: </label>
+        <br>
+        <input id="location" name="location" type="text" required>
+        <br>
+        <br>
+        <button class="btn btn-success"type="submit">Find Me Some Weathers</button>
+        <br>
+      </form>
+      <div class="display">
+      </div>
     </div>
-
   </body>
 </html>

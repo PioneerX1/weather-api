@@ -12,4 +12,6 @@ Weather.prototype.getWeather = function(location, getTemp) {
   });
 };
 
+
+
 exports.weatherModule = Weather;

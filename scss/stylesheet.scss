@@ -1,0 +1,17 @@
+$int-time-width : 17%;
+.int-times {
+  display: grid;
+  grid-template-columns: $int-time-width $int-time-width $int-time-width $int-time-width $int-time-width;
+  grid-template-rows: 50px;
+  grid-gap: 3%;
+}
+
+.intl-box{
+  background-color: salmon;
+  color: white;
+  font-size: 1.3em;
+}
+
+.jumbotron{
+  text-align: center;
+}
